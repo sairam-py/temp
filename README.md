@@ -1,4 +1,4 @@
 # temp
-this is my temp repo , which im using to learn git through bash
+this is my *temp repo* , which im using to learn git through bash
 
-you can fork it if you wanna practice git
+you can fork it if you wanna **practice** git

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+  <head>
+
+    <title>Registration</title>
+    <style >
+      body{background-color : orange ;}
+
+
+      input[type=text]{
+        padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+      }
+
+      select
+      {
+        padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+      }
+    </style>
+
+  </head>
+  <body>
+<center>
+    <form class="" action="succuss.html" method="post">
+      <label for="Name">Name</label>
+      <input type="text" name="Name" value="" placeholder="Name" required>
+
+      <br>
+
+      <label for="Email">Email</label>
+      <input type="text" name="Email" value="" placeholder="Email Id" required>
+
+      <br>
+
+      <label for="gender">Gender</label>
+      <input type="radio"  name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="female" required>
+      <label for="female">Female</label>
+      <input type="radio"  name="gender" value="other" required>
+      <label for="other">Other</label>
+
+      <br>
+      <label for="college">College</label>
+      <input type="text"  name="college" value="" placeholder="college Name" required>
+
+      <br>
+
+      <label for="courses">Available Courses</label>
+      <select class="courses" name="Course">
+        <option value="">Choose a Course</option>
+        <option value="Python">Python 101 </option>
+
+          <option value="BC">Block Chain</option>
+          <option value="js">Java Script</option>
+          <option value="OS">Operating Systems</option>
+      </select>
+      <br>
+
+      <label for="courses diff">Knowledge Level</label>
+      <select class="" name="Knowledge">
+        <option value="">Knowledge about course</option>
+        <option value="0">Newbie</option>
+        <option value="1">Intermediate</option>
+        <option value="2">Pro</option>
+        </select>
+        <br>
+        <label for="mentor">Mentor</label>
+
+        <input type="radio"  name="mentor" value="Required">
+        <label for="req">Required</label>
+        <input type="radio" name="mentor" value="Not">
+        <label for="not req">Not Required</label>
+
+        <br>
+         <button type="submit" name="button" value="submit">Submit</button>
+
+
+
+
+    </form>
+</center>
+  </body>
+</html>

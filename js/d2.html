@@ -1,0 +1,62 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DAY-2</title>
+  </head>
+
+  <body>
+
+
+      <script type="text/javascript">
+
+          var d = new Date();
+          document.write("Today:"+d+"<br>");
+
+          var num =parseInt (prompt("Enter a num"))
+
+          if (num >=10 && num<=100)
+          {
+
+            document.write("Hey buddy number is in range <br>");
+            var n1=parseInt(0),n2=parseInt(1);
+            document.write("Fib series upto "+num+" elements<br>")
+
+
+            let arr = [0, 1];
+            for (let i = 2; i < num + 1; i++){
+              arr.push(arr[i - 2] + arr[i -1])
+            }
+            document.write(arr);
+            }
+
+          else
+          {
+            document.write("Hey buddy number out of range <br>");
+          }
+
+          try{
+            if (num == 0) throw "0";
+        }
+        catch(eer)
+        {
+          document.write("<h2>your input is ZERO brooo</h2>")
+        }
+
+        var desc ="Although for most people COVID-19 causes only mild illness, it can make some people very ill. More rarely, the disease can be fatal. Older people, and those with pre- existing medical conditions (such as high blood pressure, heart problems or diabetes) appear to be more vulnerable.";
+        var res=desc.split(" ")
+        document.write("<br>5th , 7th ,11th elements in desc are:")
+        document.write("<br>"+res[5]+"<br>"+res[7]+"<br>"+res[10])
+
+
+
+        </script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>hide demo</title>
+  <style>
+  p {
+    background: #dad;
+    font-weight: bold;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+
+<button>Hide me</button>
+<p>Hi</p>
+<p>This is Sairam</p>
+<button>Toogle</button>
+<script>
+$( "button" ).click(function() {
+  $( "p" ).hide( "slow" );
+});
+
+$( "button" ).click(function() {
+  $( "p" ).toogle( "slow" );
+});
+</script>
+
+</body>
+</html>

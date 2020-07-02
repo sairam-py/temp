@@ -13,17 +13,29 @@
 <body>
 
 <button>Hide me</button>
+<button id="fade">fade out</button>
 <p>Hi</p>
 <p>This is Sairam</p>
-<button>Toogle</button>
+<h3>Double click on above text to get alert!!</h3>
+<p id="xy"><b>this is gonna fade</b></p>
+
 <script>
 $( "button" ).click(function() {
   $( "p" ).hide( "slow" );
 });
 
-$( "button" ).click(function() {
-  $( "p" ).toogle( "slow" );
+$("p").dblclick(function(){
+   alert("The paragraph was double-clicked.");
+ });
+
+ $("#fade").click(function(){
+   $("#xy").fadein();
 });
+
+
+
+
+
 </script>
 
 </body>
